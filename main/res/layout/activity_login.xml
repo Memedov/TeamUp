@@ -74,6 +74,7 @@
 
             <Button
                 android:id="@+id/login_button"
+                android:onClick="doLogin"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -119,6 +120,7 @@
 
             <Button
                 android:id="@+id/register_button"
+                android:onClick="doRegister"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
