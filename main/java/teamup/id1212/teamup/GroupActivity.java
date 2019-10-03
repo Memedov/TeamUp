@@ -1,5 +1,6 @@
 package teamup.id1212.teamup;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -7,13 +8,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.content.Intent;
 
-public class HomeActivity extends AppCompatActivity {
+public class GroupActivity extends AppCompatActivity {
 
     private TextView mTextMessage;
-    private TextView soccerButton;
-    private TextView rideButton;
+    private TextView getActivity;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -22,13 +21,13 @@ public class HomeActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    goHome();
+                    mTextMessage.setText(R.string.title_home);
                     return true;
                 case R.id.navigation_dashboard:
-                    goToProfile();
+                    mTextMessage.setText(R.string.title_profile);
                     return true;
                 case R.id.navigation_notifications:
-                    getRide();
+                    mTextMessage.setText(R.string.title_my_rides);
                     return true;
             }
             return false;
@@ -38,22 +37,15 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_group);
 
-        soccerButton = (TextView) findViewById(R.id.soccer);
-        rideButton = (TextView) findViewById(R.id.ride2);
+        mTextMessage = (TextView) findViewById(R.id.message);
+        getActivity = (TextView) findViewById(R.id.ride2);
 
-        soccerButton.setOnClickListener(new View.OnClickListener() {
+        getActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getGroup();
-            }
-        });
-
-        rideButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getRide();
+                getActivity();
             }
         });
 
@@ -61,24 +53,8 @@ public class HomeActivity extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
-    public void getGroup() {
-        Intent intent4 = new Intent(this, GroupActivity.class);
-        startActivity(intent4);
-    }
-
-    public void getRide() {
+    public void getActivity() {
         Intent intent5 = new Intent(this, ActivityRidesActivity.class);
         startActivity(intent5);
     }
-
-    public void goHome(){
-        Intent homeIntent = new Intent(this, HomeActivity.class);
-        startActivity(homeIntent);
-    }
-
-    public void goToProfile(){
-        Intent profileIntent = new Intent(this, ProfileActivity.class);
-        startActivity(profileIntent);
-    }
-
 }
