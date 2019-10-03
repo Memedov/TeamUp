@@ -4,7 +4,7 @@ An app developed during the course, *Developing Mobile Applications*, ID2216.
 The main idea of the app is to make carpooling, and the planning that goes behind it, easier for groups/teams 
 that want to share rides to common destinations. 
 
-To use the app one simply creates an account and searches for the group. Every group has its events and activities listed
+To use the app one simply creates an account and searches for the group to join. Every group has its events and activities listed
 and each of the entries in the list can be selected to see available rides, or to create a ride, for that specific activity.
 
 <br/>
