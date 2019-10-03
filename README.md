@@ -10,11 +10,11 @@ and each of the entries in the list can be selected to see available rides, or t
 <br/>
 <br/>
 
-<img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_1.png" width="210"/> &nbsp; <img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_3.png" width="210"/>
-&nbsp;<img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_4.png" width="210"/> &nbsp; <img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_8.png" width="210"/>
+<img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_1.png" width="210"/> <img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_3.png" width="210"/>
+&nbsp;<img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_4.png" width="210"/><img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_8.png" width="210"/>
  
 <br/>
 
-<img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_6.png" width="210"/> &nbsp;<img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_7.png" width="210"/>
+<img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_6.png" width="210"/><img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_7.png" width="210"/>
 &nbsp; <img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_11.png" width="210"/>
 &nbsp;<img src="https://github.com/Memedov/TeamUp/blob/master/TeamUp_Screenshots/Screenshot_9.png" width="210"/>
